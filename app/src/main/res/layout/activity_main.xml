@@ -57,8 +57,9 @@
 
             <EditText
                 android:id="@+id/username"
-                android:layout_width="384dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/inputstyle"
                 android:ems="10"
                 android:hint="Nom d'utilisateur"
                 android:inputType="textPassword"
@@ -68,6 +69,7 @@
                 android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/inputstyle"
                 android:ems="10"
                 android:hint="********"
                 android:inputType="textPassword"
@@ -78,8 +80,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
+                android:background="@drawable/stylebtn"
                 android:backgroundTint="#9A1F31"
-                android:text="Se connecter" />
+                android:fontFamily="serif"
+                android:text="Se connecter"
+                android:textSize="16" />
 
 
         </LinearLayout>
