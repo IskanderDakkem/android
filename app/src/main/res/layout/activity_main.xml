@@ -59,32 +59,61 @@
                 android:id="@+id/username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
                 android:background="@drawable/inputstyle"
                 android:ems="10"
                 android:hint="Nom d'utilisateur"
-                android:inputType="textPassword"
-                android:minHeight="48dp" />
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:padding="5dp"
+                android:textColor="#969696"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/userInputErrors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
 
             <EditText
                 android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
                 android:background="@drawable/inputstyle"
                 android:ems="10"
                 android:hint="********"
                 android:inputType="textPassword"
-                android:minHeight="48dp" />
+                android:minHeight="48dp"
+                android:padding="5dp"
+                android:paddingLeft="20dp"
+                android:textColor="#969696" />
+
+            <TextView
+                android:id="@+id/inputErrorsPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
 
             <Button
                 android:id="@+id/signinBTN"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:background="@drawable/stylebtn"
                 android:backgroundTint="#9A1F31"
                 android:fontFamily="serif"
                 android:text="Se connecter"
-                android:textSize="16" />
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/showUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
 
 
         </LinearLayout>
